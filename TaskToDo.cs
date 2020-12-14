@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using static InneUkeOppgave.ToDo;
 
 namespace InneUkeOppgave
 {
@@ -18,23 +16,12 @@ namespace InneUkeOppgave
             _duoDate = duoDate;
         }
 
-        public static void Show(List<ToDo>toDos)
+        public static void Show( string toDo)
         {
             WritHeader();
-            foreach (var toDo in toDos)
-            {
-                if (toDo.IsDone)
-                {
-                    Console.ForegroundColor = ConsoleColor.Green;
-                }
-                
-                Console.Write(toDo.TaskName+"; ");
-                Console.Write(toDo.Description+"; ");
-                Console.Write(toDo.DuoDate+"; ");
-                Console.Write(toDo.IsDone);
-                Console.WriteLine();
-                Console.ForegroundColor = ConsoleColor.White;
-            }
+            Console.ForegroundColor= ConsoleColor.Green;
+            Console.WriteLine(toDo);
+            
             
         }
 

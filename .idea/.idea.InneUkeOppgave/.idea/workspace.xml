@@ -82,22 +82,22 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="2267" y="566" key="#Notifications/0.0.3440.1400/-1080.-292.1080.1920/3440.-290.1080.1920@0.0.3440.1400" timestamp="1607934061059" />
-    <state width="1674" height="518" key="GridCell.Tab.0.bottom" timestamp="1607938974839">
+    <state width="1674" height="400" key="GridCell.Tab.0.bottom" timestamp="1607942041598">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1674" height="518" key="GridCell.Tab.0.bottom/0.0.3440.1400/-1080.-292.1080.1920/3440.-290.1080.1920@0.0.3440.1400" timestamp="1607938974839" />
-    <state width="1674" height="518" key="GridCell.Tab.0.center" timestamp="1607938974839">
+    <state width="1674" height="400" key="GridCell.Tab.0.bottom/0.0.3440.1400/-1080.-292.1080.1920/3440.-290.1080.1920@0.0.3440.1400" timestamp="1607942041598" />
+    <state width="1674" height="400" key="GridCell.Tab.0.center" timestamp="1607942041598">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1674" height="518" key="GridCell.Tab.0.center/0.0.3440.1400/-1080.-292.1080.1920/3440.-290.1080.1920@0.0.3440.1400" timestamp="1607938974839" />
-    <state width="1674" height="518" key="GridCell.Tab.0.left" timestamp="1607938974839">
+    <state width="1674" height="400" key="GridCell.Tab.0.center/0.0.3440.1400/-1080.-292.1080.1920/3440.-290.1080.1920@0.0.3440.1400" timestamp="1607942041598" />
+    <state width="1674" height="400" key="GridCell.Tab.0.left" timestamp="1607942041598">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1674" height="518" key="GridCell.Tab.0.left/0.0.3440.1400/-1080.-292.1080.1920/3440.-290.1080.1920@0.0.3440.1400" timestamp="1607938974839" />
-    <state width="1674" height="518" key="GridCell.Tab.0.right" timestamp="1607938974839">
+    <state width="1674" height="400" key="GridCell.Tab.0.left/0.0.3440.1400/-1080.-292.1080.1920/3440.-290.1080.1920@0.0.3440.1400" timestamp="1607942041598" />
+    <state width="1674" height="400" key="GridCell.Tab.0.right" timestamp="1607942041598">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1674" height="518" key="GridCell.Tab.0.right/0.0.3440.1400/-1080.-292.1080.1920/3440.-290.1080.1920@0.0.3440.1400" timestamp="1607938974839" />
+    <state width="1674" height="400" key="GridCell.Tab.0.right/0.0.3440.1400/-1080.-292.1080.1920/3440.-290.1080.1920@0.0.3440.1400" timestamp="1607942041598" />
     <state width="1674" height="518" key="GridCell.Tab.1.bottom" timestamp="1607938934048">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
@@ -128,13 +128,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/TaskToDo.cs</url>
-          <line>21</line>
+          <line>19</line>
           <properties documentPath="E:\Gitrepo\Oppgaver Fra Anja\InneUkeOppgave\TaskToDo.cs" initialLine="21">
             <startOffsets>
-              <option value="530" />
+              <option value="459" />
             </startOffsets>
             <endOffsets>
-              <option value="531" />
+              <option value="460" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />

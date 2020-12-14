@@ -19,7 +19,6 @@
       <e p="packages" t="ExcludeRecursive" />
       <e p="Program.cs" t="Include" />
       <e p="TaskToDo.cs" t="Include" />
-      <e p="ToDo.cs" t="Include" />
     </e>
   </component>
 </project>
