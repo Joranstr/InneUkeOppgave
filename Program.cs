@@ -7,7 +7,7 @@ namespace InneUkeOppgave
     {
         static void  Main(string[] args)
         {
-            var toDo = ($"Middag; Lag Middag; {DateTime.Now.ToString("dd/mm/yy")}; true");
+            var toDo = ($"Lag Middag;");
             TaskToDo.Show(toDo);
         }
     }
