@@ -4,6 +4,12 @@ namespace InneUkeOppgave
 {
     public class TaskToDo
     {
+        private string _beskrivelse;
+        
+        public TaskToDo(string beskrivelse)
+        {
+            _beskrivelse = beskrivelse;
+        }
         public static void Show( string toDo)
         {
             // WritHeader();
