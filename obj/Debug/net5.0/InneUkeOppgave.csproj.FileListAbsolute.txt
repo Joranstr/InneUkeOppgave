@@ -1,0 +1,16 @@
+E:\Gitrepo\Oppgaver Fra Anja\InneUkeOppgave\obj\Debug\net5.0\InneUkeOppgave.csprojAssemblyReference.cache
+E:\Gitrepo\Oppgaver Fra Anja\InneUkeOppgave\obj\Debug\net5.0\InneUkeOppgave.GeneratedMSBuildEditorConfig.editorconfig
+E:\Gitrepo\Oppgaver Fra Anja\InneUkeOppgave\obj\Debug\net5.0\InneUkeOppgave.AssemblyInfoInputs.cache
+E:\Gitrepo\Oppgaver Fra Anja\InneUkeOppgave\obj\Debug\net5.0\InneUkeOppgave.AssemblyInfo.cs
+E:\Gitrepo\Oppgaver Fra Anja\InneUkeOppgave\obj\Debug\net5.0\InneUkeOppgave.csproj.CoreCompileInputs.cache
+E:\Gitrepo\Oppgaver Fra Anja\InneUkeOppgave\bin\Debug\net5.0\InneUkeOppgave.exe
+E:\Gitrepo\Oppgaver Fra Anja\InneUkeOppgave\bin\Debug\net5.0\InneUkeOppgave.deps.json
+E:\Gitrepo\Oppgaver Fra Anja\InneUkeOppgave\bin\Debug\net5.0\InneUkeOppgave.runtimeconfig.json
+E:\Gitrepo\Oppgaver Fra Anja\InneUkeOppgave\bin\Debug\net5.0\InneUkeOppgave.runtimeconfig.dev.json
+E:\Gitrepo\Oppgaver Fra Anja\InneUkeOppgave\bin\Debug\net5.0\InneUkeOppgave.dll
+E:\Gitrepo\Oppgaver Fra Anja\InneUkeOppgave\bin\Debug\net5.0\ref\InneUkeOppgave.dll
+E:\Gitrepo\Oppgaver Fra Anja\InneUkeOppgave\bin\Debug\net5.0\InneUkeOppgave.pdb
+E:\Gitrepo\Oppgaver Fra Anja\InneUkeOppgave\obj\Debug\net5.0\InneUkeOppgave.dll
+E:\Gitrepo\Oppgaver Fra Anja\InneUkeOppgave\obj\Debug\net5.0\ref\InneUkeOppgave.dll
+E:\Gitrepo\Oppgaver Fra Anja\InneUkeOppgave\obj\Debug\net5.0\InneUkeOppgave.pdb
+E:\Gitrepo\Oppgaver Fra Anja\InneUkeOppgave\obj\Debug\net5.0\InneUkeOppgave.genruntimeconfig.cache
