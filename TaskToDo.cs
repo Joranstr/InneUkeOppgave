@@ -6,8 +6,8 @@ namespace InneUkeOppgave
     {
         public static void Show( string toDo)
         {
-            WritHeader();
-            Console.ForegroundColor= ConsoleColor.Green;
+            // WritHeader();
+            // Console.ForegroundColor= ConsoleColor.Green;
             Console.WriteLine(toDo);
             
         }
