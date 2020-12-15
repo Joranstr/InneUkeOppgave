@@ -13,7 +13,7 @@ namespace InneUkeOppgave
             WritHeader();
             foreach (var toDo in toDos)
             {
-                IsDone(toDo.IsDone);
+                Console.ForegroundColor = toDo.IsDone ? ConsoleColor.Green : ConsoleColor.White;
                 Console.WriteLine(WriteTodo(toDo)); 
             }
         }
@@ -27,18 +27,6 @@ namespace InneUkeOppgave
             sb.Append(toDo.IsDone);
             
             return sb.ToString();
-        }
-
-        private static void IsDone(bool isDone)
-        {
-            if (isDone)
-            {
-                Console.ForegroundColor = ConsoleColor.Green;
-            }
-            else
-            {
-                Console.ForegroundColor = ConsoleColor.White;
-            }
         }
 
         private static void WritHeader()
