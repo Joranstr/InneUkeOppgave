@@ -23,8 +23,8 @@
       <list>
         <option value="$PROJECT_DIR$/Task.cs" />
         <option value="$PROJECT_DIR$/ToDo.cs" />
-        <option value="$PROJECT_DIR$/Program.cs" />
         <option value="$PROJECT_DIR$/TaskToDo.cs" />
+        <option value="$PROJECT_DIR$/Program.cs" />
       </list>
     </option>
   </component>

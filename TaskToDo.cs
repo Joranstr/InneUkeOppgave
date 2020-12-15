@@ -5,12 +5,12 @@ namespace InneUkeOppgave
 {
     public class TaskToDo
     {
-        private string _beskrivelse;
+        private string _description;
         private bool _isDone;
 
-        public TaskToDo(string beskrivelse, bool isDone)
+        public TaskToDo(string description, bool isDone)
         {
-            _beskrivelse = beskrivelse;
+            _description = description;
             _isDone = isDone;
         }
 
@@ -18,12 +18,12 @@ namespace InneUkeOppgave
         {
             foreach (var toDo in toDos)
             {
-                SetAsDone(toDo._isDone);
-                Console.WriteLine(toDo._beskrivelse);
+                SetColorOfTekst(toDo._isDone);
+                Console.WriteLine(toDo._description);
             }
         }
 
-        private static void SetAsDone(bool isDone)
+        private static void SetColorOfTekst(bool isDone)
         {
             if (isDone)
             {

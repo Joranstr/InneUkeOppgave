@@ -7,9 +7,7 @@ namespace InneUkeOppgave
     {
         static void  Main(string[] args)
         {
-            var toDos = new List<TaskToDo>();
-            toDos.Add(new TaskToDo($"Lag Middag;", true));
-            toDos.Add(new TaskToDo($"Lag Middag;", false));
+            var toDos = new List<TaskToDo> {new TaskToDo($"Lag Middag;", true), new TaskToDo($"Lag Middag;", false)};
             TaskToDo.Show(toDos);
         }
     }
