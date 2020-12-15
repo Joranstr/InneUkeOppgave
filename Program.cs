@@ -23,7 +23,7 @@ namespace InneUkeOppgave
             var lagdmiddag =Console.ReadLine();
             if (lagdmiddag == "y")
             {
-                toDos.Add(new ToDo("Middag", "Lag Middag", DateTime.Now.ToString("dd/mm/yy"), true));
+                toDos.Add(new ToDo("Fokost", "Lag fokost", DateTime.Now.ToString("dd/mm/yy"), true));
             }
             else
             {

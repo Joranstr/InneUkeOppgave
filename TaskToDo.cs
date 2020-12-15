@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text;
 using static InneUkeOppgave.ToDo;
 
 namespace InneUkeOppgave
 {
     public class TaskToDo
     {
-        
         private readonly string _taskName;
         private string _description;
         private DateTime _duoDate;
@@ -18,24 +18,36 @@ namespace InneUkeOppgave
             _duoDate = duoDate;
         }
 
-        public static void Show(List<ToDo>toDos)
+        public static void Show(List<ToDo> toDos)
         {
             WritHeader();
             foreach (var toDo in toDos)
             {
-                if (toDo.IsDone)
-                {
-                    Console.ForegroundColor = ConsoleColor.Green;
-                }
-                
-                Console.Write(toDo.TaskName+"; ");
-                Console.Write(toDo.Description+"; ");
-                Console.Write(toDo.DuoDate+"; ");
-                Console.Write(toDo.IsDone);
-                Console.WriteLine();
+                IsDone(toDo);
+                Console.WriteLine(WriteTodo(toDo)); 
+            }
+        }
+
+        private static string WriteTodo(ToDo toDo)
+        {
+            var sb = new StringBuilder();
+            sb.Append(toDo.TaskName + "; ");
+            sb.Append(toDo.Description + "; ");
+            sb.Append(toDo.DuoDate + "; ");
+            sb.Append(toDo.IsDone);
+            return sb.ToString();
+        }
+
+        private static void IsDone(ToDo toDo)
+        {
+            if (toDo.IsDone)
+            {
+                Console.ForegroundColor = ConsoleColor.Green;
+            }
+            else
+            {
                 Console.ForegroundColor = ConsoleColor.White;
             }
-            
         }
 
         private static void WritHeader()
