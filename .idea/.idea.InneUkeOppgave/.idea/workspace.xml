@@ -10,8 +10,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8D47347F-FC9A-4211-8DDE-5BB89F99F8BC/4/Console.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://F:/sergel-incident-report-backend/JiraApi/Models/Issues.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://F:/sergel-incident-report-backend/JiraApi/Models/Issue.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -72,7 +77,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
@@ -82,22 +87,22 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="2267" y="566" key="#Notifications/0.0.3440.1400/-1080.-292.1080.1920/3440.-290.1080.1920@0.0.3440.1400" timestamp="1607934061059" />
-    <state width="1674" height="400" key="GridCell.Tab.0.bottom" timestamp="1607942041598">
+    <state width="1674" height="397" key="GridCell.Tab.0.bottom" timestamp="1608023591653">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1674" height="400" key="GridCell.Tab.0.bottom/0.0.3440.1400/-1080.-292.1080.1920/3440.-290.1080.1920@0.0.3440.1400" timestamp="1607942041598" />
-    <state width="1674" height="400" key="GridCell.Tab.0.center" timestamp="1607942041598">
+    <state width="1674" height="397" key="GridCell.Tab.0.bottom/0.0.3440.1400/-1080.-292.1080.1920/3440.-290.1080.1920@0.0.3440.1400" timestamp="1608023591653" />
+    <state width="1674" height="397" key="GridCell.Tab.0.center" timestamp="1608023591653">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1674" height="400" key="GridCell.Tab.0.center/0.0.3440.1400/-1080.-292.1080.1920/3440.-290.1080.1920@0.0.3440.1400" timestamp="1607942041598" />
-    <state width="1674" height="400" key="GridCell.Tab.0.left" timestamp="1607942041598">
+    <state width="1674" height="397" key="GridCell.Tab.0.center/0.0.3440.1400/-1080.-292.1080.1920/3440.-290.1080.1920@0.0.3440.1400" timestamp="1608023591653" />
+    <state width="1674" height="397" key="GridCell.Tab.0.left" timestamp="1608023591652">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1674" height="400" key="GridCell.Tab.0.left/0.0.3440.1400/-1080.-292.1080.1920/3440.-290.1080.1920@0.0.3440.1400" timestamp="1607942041598" />
-    <state width="1674" height="400" key="GridCell.Tab.0.right" timestamp="1607942041598">
+    <state width="1674" height="397" key="GridCell.Tab.0.left/0.0.3440.1400/-1080.-292.1080.1920/3440.-290.1080.1920@0.0.3440.1400" timestamp="1608023591652" />
+    <state width="1674" height="397" key="GridCell.Tab.0.right" timestamp="1608023591653">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1674" height="400" key="GridCell.Tab.0.right/0.0.3440.1400/-1080.-292.1080.1920/3440.-290.1080.1920@0.0.3440.1400" timestamp="1607942041598" />
+    <state width="1674" height="397" key="GridCell.Tab.0.right/0.0.3440.1400/-1080.-292.1080.1920/3440.-290.1080.1920@0.0.3440.1400" timestamp="1608023591653" />
     <state width="1674" height="518" key="GridCell.Tab.1.bottom" timestamp="1607938934048">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
@@ -122,6 +127,10 @@
       <screen x="-1080" y="-292" width="1080" height="1920" />
     </state>
     <state x="-635" y="55" width="1096" height="1383" key="dock-window-1/0.0.3440.1400/-1080.-292.1080.1920/3440.-290.1080.1920@0.0.3440.1400" timestamp="1607938766765" />
+    <state x="530" y="319" width="672" height="678" key="search.everywhere.popup" timestamp="1608023560288">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="530" y="319" width="672" height="678" key="search.everywhere.popup/0.0.3440.1400/-1080.-292.1080.1920/3440.-290.1080.1920@0.0.3440.1400" timestamp="1608023560288" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
