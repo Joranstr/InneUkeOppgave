@@ -18,14 +18,14 @@ namespace InneUkeOppgave
         {
             foreach (var toDo in toDos)
             {
-                SetAsDone(toDo);
+                SetAsDone(toDo._isDone);
                 Console.WriteLine(toDo._beskrivelse);
             }
         }
 
-        private static void SetAsDone(TaskToDo toDo)
+        private static void SetAsDone(bool isDone)
         {
-            if (toDo._isDone)
+            if (isDone)
             {
                 Console.ForegroundColor = ConsoleColor.Green;
             }
