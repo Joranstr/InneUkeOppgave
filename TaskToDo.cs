@@ -19,7 +19,7 @@ namespace InneUkeOppgave
             foreach (var toDo in toDos)
             {
                 SetAsDone(toDo);
-                Console.WriteLine(toDo);
+                Console.WriteLine(toDo._beskrivelse);
             }
         }
 
@@ -33,15 +33,6 @@ namespace InneUkeOppgave
             {
                 Console.ForegroundColor = ConsoleColor.White;
             }
-        }
-
-        private static void WritHeader()
-        {
-            Console.Write("Name of Task; ");
-            Console.Write("Description; ");
-            Console.Write("Do Date; ");
-            Console.Write("Is it Done; ");
-            Console.WriteLine();
         }
     }
 }

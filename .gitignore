@@ -50,3 +50,5 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+obj/Debug/net5.0/InneUkeOppgave.csproj.CoreCompileInputs.cache
+.idea/.idea.InneUkeOppgave/.idea/workspace.xml
