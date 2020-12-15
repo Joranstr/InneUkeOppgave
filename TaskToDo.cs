@@ -13,7 +13,7 @@ namespace InneUkeOppgave
             WritHeader();
             foreach (var toDo in toDos)
             {
-                IsDone(toDo);
+                IsDone(toDo.IsDone);
                 Console.WriteLine(WriteTodo(toDo)); 
             }
         }
@@ -25,12 +25,13 @@ namespace InneUkeOppgave
             sb.Append(toDo.Description + "; ");
             sb.Append(toDo.DuoDate + "; ");
             sb.Append(toDo.IsDone);
+            
             return sb.ToString();
         }
 
-        private static void IsDone(ToDo toDo)
+        private static void IsDone(bool isDone)
         {
-            if (toDo.IsDone)
+            if (isDone)
             {
                 Console.ForegroundColor = ConsoleColor.Green;
             }
