@@ -7,17 +7,7 @@ namespace InneUkeOppgave
 {
     public class TaskToDo
     {
-        private readonly string _taskName;
-        private string _description;
-        private DateTime _duoDate;
-
-        public TaskToDo(string taskName, string description, DateTime duoDate)
-        {
-            _taskName = taskName;
-            _description = description;
-            _duoDate = duoDate;
-        }
-
+        
         public static void Show(List<ToDo> toDos)
         {
             WritHeader();
