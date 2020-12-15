@@ -5,10 +5,12 @@ namespace InneUkeOppgave
     public class TaskToDo
     {
         private string _beskrivelse;
+        private string _isDone;
         
-        public TaskToDo(string beskrivelse)
+        public TaskToDo(string beskrivelse, string isDone)
         {
             _beskrivelse = beskrivelse;
+            _isDone = isDone;
         }
         public static void Show( string toDo)
         {
