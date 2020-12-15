@@ -5,34 +5,27 @@ namespace InneUkeOppgave
 {
     public class TaskToDo
     {
-        private string _description;
-        private bool _isDone;
+        private string _description { get; set; }
+        private bool _isDone { get; set; }
+        
 
-        public TaskToDo(string description, bool isDone)
+        // public TaskToDo(string description, bool isDone)
+        // {
+        //     _description = description;
+        //     _isDone = isDone;
+        // }
+
+        public void Show(string task, bool isDone)
         {
-            _description = description;
-            _isDone = isDone;
+            
+                SetAsDone(isDone);
+                Console.WriteLine(task);
+            
         }
 
-        public static void Show(List<TaskToDo> toDos)
+        private static void SetAsDone(bool isDone)
         {
-            foreach (var toDo in toDos)
-            {
-                SetColorOfTekst(toDo._isDone);
-                Console.WriteLine(toDo._description);
-            }
-        }
-
-        private static void SetColorOfTekst(bool isDone)
-        {
-            if (isDone)
-            {
-                Console.ForegroundColor = ConsoleColor.Green;
-            }
-            else
-            {
-                Console.ForegroundColor = ConsoleColor.White;
-            }
+            Console.ForegroundColor = isDone ? ConsoleColor.Green : ConsoleColor.White;
         }
     }
 }
