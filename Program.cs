@@ -7,10 +7,10 @@ namespace InneUkeOppgave
     {
         static void  Main(string[] args)
         {
-            var task = new TaskToDo();
+            var task = new TaskToDo("frokost");
+            task = new TaskToDo("frokost", true);
             
-            task.Show("forkost",false);
-            task.Show("forkost",true);
+            task.Show();
         }
     }
 }

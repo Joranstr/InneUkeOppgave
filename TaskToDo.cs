@@ -5,22 +5,24 @@ namespace InneUkeOppgave
 {
     public class TaskToDo
     {
-        private string _description { get; set; }
+        private string Description { get; set; }
+        private bool IsDone { get; }
 
 
-        public TaskToDo(string description, bool isDone)
+        public TaskToDo(string description, bool isDone = false)
         {
-            _description = description;
+            Description = description;
+            IsDone = isDone;
         }
 
-        public void Show(string task, bool isDone)
+        public void Show()
         {
 
-            if (isDone)
+            if (IsDone)
             {
                 SetAsDone();
             }
-            Console.WriteLine(task);
+            Console.WriteLine(Description);
 
         }
 
