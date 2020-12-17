@@ -57,3 +57,15 @@ obj/Debug/net5.0/InneUkeOppgave.csproj.CoreCompileInputs.cache
 *.xml
 .idea/.idea.InneUkeOppgave/.idea/workspace.xml
 obj/Debug/net5.0/InneUkeOppgave.assets.cache
+obj/project.nuget.cache
+obj/project.assets.json
+obj/InneUkeOppgave.csproj.nuget.dgspec.json
+obj/Debug/net5.0/InneUkeOppgave.csprojAssemblyReference.cache
+obj/Debug/net5.0/InneUkeOppgave.assets.cache
+.vs/InneUkeOppgave/v16/.suo
+.vs/InneUkeOppgave/DesignTimeBuild/.dtbcache.v2
+obj/project.nuget.cache
+obj/project.assets.json
+obj/InneUkeOppgave.csproj.nuget.dgspec.json
+obj/Debug/net5.0/InneUkeOppgave.csprojAssemblyReference.cache
+obj/Debug/net5.0/InneUkeOppgave.assets.cache
