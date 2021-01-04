@@ -8,8 +8,9 @@ namespace InneUkeOppgave
         static void  Main(string[] args)
         {
             var task = new TaskToDo("frokost");
+            task.Show();
             task = new TaskToDo("frokost", true);
-            
+            task.SetAsDone();
             task.Show();
         }
     }

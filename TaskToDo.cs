@@ -6,7 +6,7 @@ namespace InneUkeOppgave
     public class TaskToDo
     {
         private string Description { get; set; }
-        private bool IsDone { get; }
+        private static bool IsDone { get; set; }
 
 
         public TaskToDo(string description, bool isDone = false)
@@ -18,17 +18,13 @@ namespace InneUkeOppgave
         public void Show()
         {
 
-            if (IsDone)
-            {
-                SetAsDone();
-            }
+            SetAsDone();
             Console.WriteLine(Description);
-
         }
 
-        private static void SetAsDone()
+        public void SetAsDone()
         {
-            Console.ForegroundColor = ConsoleColor.Green;
+            Console.ForegroundColor = IsDone ? ConsoleColor.Green : ConsoleColor.White;
         }
     }
 }

@@ -13,19 +13,21 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Gitrepo\\Oppgaver Fra Anja\\InneUkeOppgave\\InneUkeOppgave.csproj",
+      "projectUniqueName": "E:\\Gitrepo\\Oppgaver Fra Anja\\InneukeOppgave\\InneUkeOppgave\\InneUkeOppgave.csproj",
       "projectName": "InneUkeOppgave",
-      "projectPath": "E:\\Gitrepo\\Oppgaver Fra Anja\\InneUkeOppgave\\InneUkeOppgave.csproj",
+      "projectPath": "E:\\Gitrepo\\Oppgaver Fra Anja\\InneukeOppgave\\InneUkeOppgave\\InneUkeOppgave.csproj",
       "packagesPath": "C:\\Users\\jstra\\.nuget\\packages\\",
-      "outputPath": "E:\\Gitrepo\\Oppgaver Fra Anja\\InneUkeOppgave\\obj\\",
+      "outputPath": "E:\\Gitrepo\\Oppgaver Fra Anja\\InneukeOppgave\\InneUkeOppgave\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jstra\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\jstra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -58,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\jstra\\.dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
