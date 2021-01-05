@@ -19,9 +19,14 @@ namespace InneUkeOppgave
 
         public void Show()
         {
-            var textColor = Console.ForegroundColor = IsDone ? ConsoleColor.Green : ConsoleColor.White;
+            var currentColor = Console.ForegroundColor;
+            if (IsDone)
+            {
+                Console.ForegroundColor = ConsoleColor.DarkBlue;
+            }
+
             Console.WriteLine(Description);
-            textColor = Console.ForegroundColor = ConsoleColor.White;
+            Console.ForegroundColor = currentColor;
 
         }
 
