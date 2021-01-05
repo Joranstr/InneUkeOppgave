@@ -7,9 +7,9 @@ namespace InneUkeOppgave
     {
         static void  Main(string[] args)
         {
-            var task = new TaskToDo("frokost");
+            var task = new TaskToDo("frokost", DateTime.Now);
             task.Show();
-            task = new TaskToDo("frokost", true);
+            task = new TaskToDo("frokost", DateTime.Now);
             task.SetAsDone();
             task.Show();
         }
