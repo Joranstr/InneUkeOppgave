@@ -19,7 +19,7 @@ namespace InneUkeOppgave
         {
             foreach (var task in _tasks)
             {
-                if (IsToday(task.DoDate))
+                if (CheckIfIsToday(task.DoDate))
                 {
                     Console.WriteLine(task.Description);
                 }
@@ -27,7 +27,7 @@ namespace InneUkeOppgave
             }
         }
 
-        private bool IsToday(DateTime date)
+        private bool CheckIfIsToday(DateTime date)
         {
 
             return DateTime.Now >= date;
