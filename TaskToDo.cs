@@ -5,9 +5,9 @@ namespace InneUkeOppgave
 {
     public class TaskToDo
     {
-        private string Description { get; set; }
+        public string Description { get; set; }
         private static bool IsDone { get; set; }
-        private  DateTime DoDate { get; set; }
+        public DateTime DoDate { get; set; }
 
 
         public TaskToDo(string description, DateTime doDate, bool isDone = false)
@@ -28,16 +28,10 @@ namespace InneUkeOppgave
 
             foreach (var task in tasks)
             {
-                if(IsToday(task.DoDate))Console.WriteLine(task);
+                //if (IsToday(task.DoDate)) Console.WriteLine(task);
             }
             Console.ForegroundColor = currentColor;
 
-        }
-
-        private bool IsToday(DateTime date)
-        {
-
-            return DateTime.Now >= date;
         }
 
         public void SetAsDone()

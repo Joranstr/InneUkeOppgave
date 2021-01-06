@@ -9,10 +9,9 @@ namespace InneUkeOppgave
         {
             var task = new TaskToDo("frokost", DateTime.Now);
             var toDoList = new ToDoList();
-            var tasks = toDoList.AddTask(task);
-            task.Show(tasks);
-            task.SetAsDone();
-            task.Show(tasks);
+            toDoList.AddTask(task);
+            toDoList.show();
+            
         }
     }
 }

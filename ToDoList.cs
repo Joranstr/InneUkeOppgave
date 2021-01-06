@@ -9,16 +9,32 @@ namespace InneUkeOppgave
     class ToDoList
     {
         private DateTime _date;
-        private List<TaskToDo> _tasks;
+        private List<TaskToDo> _tasks = new List<TaskToDo>();
 
         public ToDoList()
         {
         }
 
-        public List<TaskToDo> AddTask(TaskToDo task)
+        public void show()
         {
-            _tasks = new List<TaskToDo> {task};
-            return _tasks;
+            foreach (var task in _tasks)
+            {
+                if (IsToday(task.DoDate))
+                {
+                    Console.WriteLine(task.Description);
+                }
+                
+            }
+        }
+
+        private bool IsToday(DateTime date)
+        {
+
+            return DateTime.Now >= date;
+        }
+        public void AddTask(TaskToDo task)
+        {
+            _tasks.Add(task);
 
         }
     }
