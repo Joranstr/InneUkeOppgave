@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Gitrepo\\Oppgaver Fra Anja\\InneukeOppgave\\InneUkeOppgave\\InneUkeOppgave.csproj": {}
+    "X:\\Gitrepo\\Oppgaver Fra Anja\\InneukeOppgave\\InneUkeOppgave\\InneUkeOppgave.csproj": {}
   },
   "projects": {
-    "E:\\Gitrepo\\Oppgaver Fra Anja\\InneukeOppgave\\InneUkeOppgave\\InneUkeOppgave.csproj": {
+    "X:\\Gitrepo\\Oppgaver Fra Anja\\InneukeOppgave\\InneUkeOppgave\\InneUkeOppgave.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Gitrepo\\Oppgaver Fra Anja\\InneukeOppgave\\InneUkeOppgave\\InneUkeOppgave.csproj",
+        "projectUniqueName": "X:\\Gitrepo\\Oppgaver Fra Anja\\InneukeOppgave\\InneUkeOppgave\\InneUkeOppgave.csproj",
         "projectName": "InneUkeOppgave",
-        "projectPath": "E:\\Gitrepo\\Oppgaver Fra Anja\\InneukeOppgave\\InneUkeOppgave\\InneUkeOppgave.csproj",
+        "projectPath": "X:\\Gitrepo\\Oppgaver Fra Anja\\InneukeOppgave\\InneUkeOppgave\\InneUkeOppgave.csproj",
         "packagesPath": "C:\\Users\\jstra\\.nuget\\packages\\",
-        "outputPath": "E:\\Gitrepo\\Oppgaver Fra Anja\\InneukeOppgave\\InneUkeOppgave\\obj\\",
+        "outputPath": "X:\\Gitrepo\\Oppgaver Fra Anja\\InneukeOppgave\\InneUkeOppgave\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jstra\\AppData\\Roaming\\NuGet\\NuGet.Config",
