@@ -27,5 +27,10 @@ namespace InneUkeOppgave
         {
             _tasks.Add(task);
         }
+
+        private bool IsMatchDate(DateTime otherDate)
+        {
+            return DateTime.Equals(_date, otherDate);
+        }
     }
 }
