@@ -28,10 +28,15 @@ namespace InneUkeOppgave
 
             foreach (var task in tasks)
             {
-                //if (IsToday(task.DoDate)) Console.WriteLine(task);
+                if (CheckIfIsToday(task.DoDate)) Console.WriteLine(task.Description,  task.DoDate);
             }
             Console.ForegroundColor = currentColor;
 
+        }
+
+        private bool CheckIfIsToday(DateTime date)
+        {
+            return DateTime.Now >= date;
         }
 
         public void SetAsDone()
@@ -39,4 +44,4 @@ namespace InneUkeOppgave
             IsDone = true;
         }
     }
-}
+} 

@@ -15,27 +15,16 @@ namespace InneUkeOppgave
         {
         }
 
-        public void show()
+        public void Show()
         {
-            foreach (var task in _tasks)
-            {
-                if (CheckIfIsToday(task.DoDate))
-                {
-                    Console.WriteLine(task.Description);
-                }
-                
-            }
+            
         }
 
-        private bool CheckIfIsToday(DateTime date)
-        {
 
-            return DateTime.Now >= date;
-        }
-        public void AddTask(TaskToDo task)
+        public List<TaskToDo> AddTask(TaskToDo task)
         {
-            _tasks.Add(task);
-
+            _tasks = new List<TaskToDo>(){task};
+            return _tasks;
         }
     }
 }
