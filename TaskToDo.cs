@@ -33,7 +33,7 @@ namespace InneUkeOppgave
 
         public bool IsMatchDate(DateTime otherDate)
         {
-            return DoDate.Date.Equals(otherDate.Date);
+            return DoDate.Date == otherDate.Date;
         }
 
         public void SetAsDone()
