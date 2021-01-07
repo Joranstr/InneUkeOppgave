@@ -7,7 +7,10 @@ namespace InneUkeOppgave
     {
         static void  Main(string[] args)
         {
-            
+            var todoList = new ToDoList();
+            var toDo = new TaskToDo("Froskost", DateTime.Now);
+            todoList.AddTask(toDo);
+            todoList.Show();
         }
     }
 }
