@@ -23,10 +23,9 @@ namespace InneUkeOppgave
         }
 
 
-        public List<TaskToDo> AddTask(TaskToDo task)
+        public void AddTask(TaskToDo task)
         {
-            _tasks = new List<TaskToDo>(){task};
-            return _tasks;
+            _tasks.Add(task);
         }
     }
 }
