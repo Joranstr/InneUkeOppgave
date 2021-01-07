@@ -19,7 +19,7 @@ namespace InneUkeOppgave
 
         public void Show()
         {
-            
+            Console.WriteLine(_date.ToString("D"));
         }
 
 
