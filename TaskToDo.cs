@@ -31,7 +31,7 @@ namespace InneUkeOppgave
 
         }
 
-        private bool IsMatchDate(DateTime otherDate)
+        public bool IsMatchDate(DateTime otherDate)
         {
             return DateTime.Equals(_date, otherDate);
         }

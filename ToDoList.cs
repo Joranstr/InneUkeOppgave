@@ -21,12 +21,16 @@ namespace InneUkeOppgave
         {
             foreach (var task in _tasks)
             {
+                if (IsMatchDate(task.DoDate))
+                {
+                    
+                }
+
                 
             }
             Console.WriteLine(_date.ToString("D"));
         }
-
-
+         
         public void AddTask(TaskToDo task)
         {
             _tasks.Add(task);
