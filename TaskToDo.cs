@@ -17,31 +17,29 @@ namespace InneUkeOppgave
             IsDone = isDone;
         }
 
-        public void Show(List<TaskToDo> tasks)
+        public void Show()
         {
-            Console.WriteLine(DateTime.Now.ToString("D"));
+            //Console.WriteLine(DateTime.Now.ToString("D"));
             var currentColor = Console.ForegroundColor;
             if (IsDone)
             {
                 Console.ForegroundColor = ConsoleColor.DarkBlue;
             }
 
-            foreach (var task in tasks)
-            {
-                if (CheckIfIsToday(task.DoDate)) Console.WriteLine(task.Description,  task.DoDate);
-            }
+            Console.WriteLine(Description);
+
             Console.ForegroundColor = currentColor;
 
         }
 
-        private bool CheckIfIsToday(DateTime date)
-        {
-            return DateTime.Now >= date;
-        }
+        //private bool CheckIfIsToday(DateTime date)
+        //{
+        //    return DateTime.Now >= date;
+        //}
 
         public void SetAsDone()
         {
             IsDone = true;
         }
     }
-} 
+}
