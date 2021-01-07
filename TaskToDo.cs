@@ -32,10 +32,10 @@ namespace InneUkeOppgave
 
         }
 
-        //private bool CheckIfIsToday(DateTime date)
-        //{
-        //    return DateTime.Now >= date;
-        //}
+        private bool IsMatchDate(DateTime otherDate)
+        {
+            return DateTime.Equals(_date, otherDate);
+        }
 
         public void SetAsDone()
         {
