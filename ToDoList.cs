@@ -19,6 +19,10 @@ namespace InneUkeOppgave
 
         public void Show()
         {
+            foreach (var task in _tasks)
+            {
+                
+            }
             Console.WriteLine(_date.ToString("D"));
         }
 
@@ -26,11 +30,6 @@ namespace InneUkeOppgave
         public void AddTask(TaskToDo task)
         {
             _tasks.Add(task);
-        }
-
-        private bool IsMatchDate(DateTime otherDate)
-        {
-            return DateTime.Equals(_date, otherDate);
         }
     }
 }
