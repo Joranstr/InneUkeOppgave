@@ -9,7 +9,7 @@ namespace InneUkeOppgave
     class ToDoList
     {
         private DateTime _date;
-        private List<TaskToDo> _tasks = new List<TaskToDo>();
+        private List<TaskToDo> _tasks;
 
         public ToDoList()
         {
