@@ -10,11 +10,10 @@ namespace InneUkeOppgave
         public DateTime DoDate;
 
 
-        public TaskToDo(string description, DateTime doDate, bool isDone = false)
+        public TaskToDo(string description, DateTime doDate)
         {
             Description = description;
             DoDate = doDate;
-            IsDone = isDone;
         }
 
         public void Show()
