@@ -7,10 +7,6 @@ namespace InneUkeOppgave
     {
         static void  Main(string[] args)
         {
-            var task = new TaskToDo("frokost", DateTime.Now);
-            var toDoList = new ToDoList();
-            var tasks = toDoList.AddTask(task);
-            task.Show();
             
         }
     }
