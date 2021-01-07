@@ -21,10 +21,10 @@ namespace InneUkeOppgave
         {
             foreach (var task in _tasks)
             {
-                if (IsMatchDate(task.DoDate))
-                {
+                //if (IsMatchDate(task.DoDate))
+                //{
                     
-                }
+                //}
 
                 
             }

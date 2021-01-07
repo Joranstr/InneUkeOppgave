@@ -5,7 +5,7 @@ namespace InneUkeOppgave
 {
     class Program
     {
-        static void  Main(string[] args)
+        static void Main(string[] args)
         {
             var todoList = new ToDoList();
             var toDo = new TaskToDo("Froskost", DateTime.Now);
