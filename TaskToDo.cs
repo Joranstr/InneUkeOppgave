@@ -5,9 +5,9 @@ namespace InneUkeOppgave
 {
     public class TaskToDo
     {
-        public string Description { get; set; }
-        private static bool IsDone { get; set; }
-        public DateTime DoDate { get; set; }
+        public string Description;
+        private static bool IsDone;
+        public DateTime DoDate;
 
 
         public TaskToDo(string description, DateTime doDate, bool isDone = false)
