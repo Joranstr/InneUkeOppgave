@@ -13,6 +13,8 @@ namespace InneUkeOppgave
 
         public ToDoList()
         {
+            _tasks = new List<TaskToDo>();
+            _date = DateTime.Now;
         }
 
         public void Show()
