@@ -17,6 +17,10 @@ namespace InneUkeOppgave
                     todoList.MoveDays(-1);
                 else if(keyInfo.Key == ConsoleKey.RightArrow)
                     todoList.MoveDays(1);
+                else if (keyInfo.Key == ConsoleKey.UpArrow)
+                    todoList.MoveDays(-1);
+                else if (keyInfo.Key == ConsoleKey.DownArrow)
+                    todoList.MoveDays(1);
                 todoList.Show();
             } while (true);
         }
