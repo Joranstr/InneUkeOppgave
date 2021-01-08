@@ -33,9 +33,9 @@ namespace InneUkeOppgave
             _tasks.Add(task);
         }
 
-        public void MoveDays(int moveByDays)
+        public void MoveDays(int deltaDays)
         {
-            _date.AddDays(moveByDays);
+            _date = _date.AddDays(deltaDays);
         }
     }
 }
