@@ -32,5 +32,10 @@ namespace InneUkeOppgave
         {
             _tasks.Add(task);
         }
+
+        public void MoveDays(int moveByDays)
+        {
+            _date.AddDays(moveByDays);
+        }
     }
 }
