@@ -26,10 +26,15 @@ namespace InneUkeOppgave
             {
                 var task = _tasks[index];
                 
-                if (index == _selectedIndex) Console.WriteLine("*");
+                if (index == _selectedIndex) Console.Write("*");
                 
                 if (task.IsMatchDate(_date))
                     task.Show();
+            }
+
+            if (_tasks.Count == _selectedIndex)
+            {
+                Console.WriteLine("*");
             }
         }
 
