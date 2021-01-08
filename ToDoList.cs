@@ -21,14 +21,15 @@ namespace InneUkeOppgave
         public void Show()
         {
             Console.WriteLine(_date.ToString("D"));
-            
-            foreach (var task in _tasks)
+
+            for (var index = 0; index < _tasks.Count; index++)
             {
-                if(task.IsMatchDate(_date)) 
+                var task = _tasks[index];
+                if (task.IsMatchDate(_date))
                     task.Show();
             }
         }
-         
+
         public void AddTask(TaskToDo task)
         {
             _tasks.Add(task);
