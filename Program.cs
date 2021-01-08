@@ -12,6 +12,11 @@ namespace InneUkeOppgave
             todoList.AddTask(toDo);
             do
             {
+                var keyInfo = Console.ReadKey();
+                if (keyInfo.Key == ConsoleKey.LeftArrow)
+                {
+                    todoList.MoveDays(-1);
+                }
                 todoList.Show();
             } while (true);
         }
