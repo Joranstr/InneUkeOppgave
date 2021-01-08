@@ -10,6 +10,7 @@ namespace InneUkeOppgave
     {
         private DateTime _date;
         private List<TaskToDo> _tasks;
+        private int _selectedIndex;
 
         public ToDoList()
         {
@@ -36,6 +37,11 @@ namespace InneUkeOppgave
         public void MoveDays(int deltaDays)
         {
             _date = _date.AddDays(deltaDays);
+        }
+
+        public void MoveSelection(int Move)
+        {
+            throw new NotImplementedException();
         }
     }
 }
