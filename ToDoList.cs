@@ -48,9 +48,9 @@ namespace InneUkeOppgave
             _date = _date.AddDays(deltaDays);
         }
 
-        public void MoveSelection(int Move)
+        public void MoveSelection(int deltaIndex)
         {
-            throw new NotImplementedException();
+            _selectedIndex = deltaIndex;
         }
     }
 }
