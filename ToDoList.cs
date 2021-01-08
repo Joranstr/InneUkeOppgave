@@ -32,7 +32,7 @@ namespace InneUkeOppgave
                     task.Show();
             }
 
-            if (_tasks.Count == _selectedIndex)
+            if (_selectedIndex == _tasks.Count)
             {
                 Console.WriteLine("*");
             }
