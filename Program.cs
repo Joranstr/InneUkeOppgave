@@ -10,7 +10,10 @@ namespace InneUkeOppgave
             var todoList = new ToDoList();
             var toDo = new TaskToDo("Froskost", DateTime.Now);
             todoList.AddTask(toDo);
-            todoList.Show();
+            do
+            {
+                todoList.Show();
+            } while (true);
         }
     }
 }
